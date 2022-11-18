@@ -45,3 +45,12 @@ print(B[2:]) # Slice To the End
 print(B[-1:-3]) # Negative Indexing
 print()  #empty line
 
+# Modify Strings
+#  Python has a set of built-in methods that you can use on strings.
+
+C = "HELLO, world"
+print(C.upper()) # output: "HELLO, WORLD"  Upper Case
+print(C.lower()) # output: "hello, world"  Lower Case
+print(C.strip()) # output: "HELLO, world"  Remove Whitespace
+print(C.replace("H", "J")) # output:  "JELLO, world"  Replace String
+print(C.split(",")) # output :  ['HELLO', ' world']  Split String
