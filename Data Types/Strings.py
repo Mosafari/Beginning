@@ -34,3 +34,14 @@ print()  #empty line
 
 print("Py" in B) # output: True
 print()  #empty line
+
+# Slicing Strings
+#  You can return a range of characters by using the slice syntax.
+
+#Note: The first character has index 0.
+print(B[1:4]) # output: "yth" 
+print(B[:4]) # Slice From the Start
+print(B[2:]) # Slice To the End
+print(B[-1:-3]) # Negative Indexing
+print()  #empty line
+
