@@ -54,3 +54,25 @@ print(C.lower()) # output: "hello, world"  Lower Case
 print(C.strip()) # output: "HELLO, world"  Remove Whitespace
 print(C.replace("H", "J")) # output:  "JELLO, world"  Replace String
 print(C.split(",")) # output :  ['HELLO', ' world']  Split String
+print()  #empty line
+
+# String Format
+
+"""we cannot combine strings and numbers like this:
+    num = 2
+    txt = "it doesn't work {}" + age
+    print(txt)""" # output: Error
+    
+#  The format() method takes the passed arguments, formats them, and places them in the string where the placeholders {} are:
+    
+num1 = 100
+num2 = 200
+num3 = 300
+txt = "now it works {}"
+print(txt.format(num1))
+print()  #empty line
+#  You can use index numbers {0} to be sure the arguments are placed in the correct placeholders:
+
+txt2 = "num1 : {0}, num3 : {2}, num2 : {1}"
+print(txt2.format(num1, num2, num3))
+print()  #empty line
