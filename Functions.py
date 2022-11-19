@@ -48,3 +48,15 @@ def Greeteng2(*names):
 Greeteng2("ali",'mohamad','reza')
 
 # Arbitrary Arguments are often shortened to *args in Python documentations.
+
+# Keyword Arguments
+# You can also send arguments with the key = value syntax.
+# This way the order of the arguments does not matter.
+
+def Greeteng3(name1,name2,name3):
+    print("hello, ", name3)
+    print("hello, ", name2)
+    print("hello, ", name1)
+    print() #empty line
+    
+Greeteng3(name2='ali',name1='mohamad',name3='reza')
