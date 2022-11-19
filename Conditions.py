@@ -68,3 +68,8 @@ a = 330
 b = 330
 print("A") if a > b else print("=") if a == b else print("B") 
 print() #empty line
+
+# also, we can use logical operators in conditions statements
+
+if a==220 or b==330:
+    print(True)
