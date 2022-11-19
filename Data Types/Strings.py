@@ -76,3 +76,12 @@ print()  #empty line
 txt2 = "num1 : {0}, num3 : {2}, num2 : {1}"
 print(txt2.format(num1, num2, num3))
 print()  #empty line
+
+# Escape Character
+#  To insert characters that are illegal in a string, use an escape character.
+#  An escape character is a backslash \ followed by the character you want to insert.
+
+print("Special cases aren't special enough to break the rules.")
+print('Special cases aren\'t special enough to break the rules.') # output : Special cases aren't special enough to break the rules.
+# Other escape characters : https://www.w3schools.com/python/python_strings_escape.asp
+print()  #empty line
