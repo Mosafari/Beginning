@@ -29,9 +29,23 @@ x = 5
 y = 5
 
 if x > y:
-    print(x ," greater than ", y)
+    print("x  greater than  y")
 elif x == y :
-    print(x,' equal to ', y)
+    print('x equal to  y')
 print() #empty line
 
-    
+#else
+
+x = 5
+y = 3
+
+if x > y:
+    print("x greater than  y")
+elif x == y :
+    print('x equal to  y')
+else :
+    print('y greater than  x')
+print() #empty line
+
+# The else keyword catches anything which isn't caught by the preceding conditions
+
