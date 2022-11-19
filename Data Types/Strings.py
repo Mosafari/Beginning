@@ -85,3 +85,14 @@ print("Special cases aren't special enough to break the rules.")
 print('Special cases aren\'t special enough to break the rules.') # output : Special cases aren't special enough to break the rules.
 # Other escape characters : https://www.w3schools.com/python/python_strings_escape.asp
 print()  #empty line
+
+
+# String Methods
+#  Python has a set of built-in methods that you can use on strings.
+# Note: All string methods return new values. They do not change the original string.
+H= "Programming is fun"
+print(H.count("m")) # output : 2
+print(H.find("r")) # output : 1 (index 1)  Searches the string for a specified value and returns the position of where it was found (first one)
+# more details on : https://www.w3schools.com/python/python_strings_methods.asp
+print()  #empty line
+
