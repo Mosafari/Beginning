@@ -21,3 +21,15 @@ x-=4 # x = x - 2 -> 6 - 4 = 2 -> x = 2
 print(x) # output : 2
 x*=2 # x = x * 2 -> 2 * 2 = 4 -> x = 4
 print(x) # output : 4
+print()  #empty line
+
+# Python Comparison Operators
+#  Comparison operators are used to compare two values:
+
+a = 3
+b = 7
+print(a==b) # output : False
+print(a!=b) # output : True
+print(a<b) # output : True
+print(a>b) # output : False
+print()  #empty line
