@@ -22,3 +22,39 @@ D = {'a': 1, 'b': 2, 'c': 3}
 print(len(D))
 print(type(D))
 print() #empty line
+
+# Accessing Items
+# You can access the items of a dictionary by referring to its key name, inside square brackets
+
+print(D['a'])
+print() #empty line
+
+# There is also a method called get() that will give you the same result:
+
+print(D.get('a'))
+print(D.get('h')) # h key doesn't exist
+print() #empty line
+
+# Get Keys
+# The keys() method will return a list of all the keys in the dictionary.
+
+print(D.keys())
+print() #empty line
+# The list of the keys is a view of the dictionary,
+# meaning that any changes done to the dictionary will be reflected in the keys list.
+
+# Get Values
+# The values() method will return a list of all the values in the dictionary.
+
+print(D.values())
+print() #empty line
+# The list of the values is a view of the dictionary,
+# meaning that any changes done to the dictionary will be reflected in the values list.
+
+# Get Items
+# The items() method will return each item in a dictionary, as tuples in a list.
+
+print(D.items())
+print() #empty line
+# The returned list is a view of the items of the dictionary,
+# meaning that any changes done to the dictionary will be reflected in the items list.
