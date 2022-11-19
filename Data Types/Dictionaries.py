@@ -135,3 +135,14 @@ print() #empty line
 C = dict(A)
 print(C)
 print() #empty line
+
+# Nested Dictionaries
+
+# Nested Dictionaries
+# A dictionary can contain dictionaries, this is called nested dictionaries.
+
+name ={"id":"name",1:"ali",2:"mohamad"}
+addr = {"id": "addr",1:"tehran",2:"shiraz"}
+castumer= {"names": name, "addr": addr}
+print(castumer)
+print() #empty line
