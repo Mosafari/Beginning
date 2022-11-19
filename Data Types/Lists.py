@@ -134,3 +134,47 @@ print(C)
 C.clear()
 print(C)
 print()  #empty line
+
+#                                      *** ( loop in list & List Comprehension )  in loop section ***
+
+# Sort Lists
+
+#  Sort List Alphanumerically
+# List objects have a sort() method that will sort the list alphanumerically, ascending, by default:
+
+L = ['z','s','c','a','b','o','t','A','Z']
+L.sort()
+print(L)
+print()  #empty line
+
+#  Sort Descending
+# To sort descending, use the keyword argument reverse = True:
+
+L = ['z','s','c','a','b','o','t','A','Z']
+L.sort(reverse=True)
+print(L)
+print()  #empty line
+
+#  Customize Sort Function
+# You can also customize your own function by using the keyword argument key = function.
+# The function will return a number that will be used to sort the list (the lowest number first):
+
+#  Case Insensitive Sort
+# By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+
+# Luckily we can use built-in functions as key functions when sorting a list.
+# So if you want a case-insensitive sort function, use str.lower as a key function:
+
+L = ['z','s','c','a','b','o','t','A','Z']
+L.sort(key = str.lower)
+print(L)
+print()  #empty line
+
+#  Reverse Order
+# What if you want to reverse the order of a list, regardless of the alphabet?
+# The reverse() method reverses the current sorting order of the elements.
+
+L = ['z','s','c','a','b','o','t','A','Z']
+L.reverse()
+print(L)
+print()  #empty line
