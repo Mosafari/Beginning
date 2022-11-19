@@ -17,7 +17,21 @@ a = 33
 b = 200
 if b > a:
   print("b is greater than a")
+print() #empty line
 
 # Indentation
 # ***Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.
 # Other programming languages often use curly-brackets for this purpose. ***
+
+#elif
+
+x = 5
+y = 5
+
+if x > y:
+    print(x ," greater than ", y)
+elif x == y :
+    print(x,' equal to ', y)
+print() #empty line
+
+    
