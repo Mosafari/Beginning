@@ -65,3 +65,61 @@ print() #empty line
 set0.clear()
 print("set0 : ",set0)
 print() #empty line
+
+#                                      *** ( loop in Set )  in loop section ***
+
+# Join Sets
+
+#  Join Two Sets
+# There are several ways to join two or more sets in Python.
+# You can use the union() method that returns a new set containing all items from both sets,
+# or the update() method that inserts all the items from one set into another:
+
+# Note: Both union() and update() will exclude any duplicate items.
+
+set3 = {4,4,9,8}
+test = set1.union(set3)
+print(test)
+set1.update(set3)
+print(set1)
+print() #empty line
+
+# Keep ONLY the Duplicates
+# The intersection_update() method will keep only the items that are present in both sets.
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.intersection_update(y)
+print(x)
+print() #empty line
+
+# The intersection() method will return a new set, that only contains the items that are present in both sets.
+
+h = {"apple", "banana", "cherry"}
+w = {"google", "microsoft", "apple"}
+
+z = h.intersection(w)
+print(z) 
+print() #empty line
+
+# Keep All, But NOT the Duplicates
+# The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
+
+i = {"apple", "banana", "cherry"}
+j = {"google", "microsoft", "apple"}
+
+i.symmetric_difference_update(j)
+print(i) 
+print() #empty line
+
+# The symmetric_difference() method will return a new set, that contains only the elements that are NOT present in both sets.
+
+t = {"apple", "banana", "cherry"}
+u = {"google", "microsoft", "apple"}
+
+m = t.symmetric_difference(u)
+print(m)
+print() #empty line
+
+# more set methods on : https://www.w3schools.com/python/python_sets_methods.asp
