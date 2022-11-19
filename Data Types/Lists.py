@@ -98,3 +98,39 @@ print(B)
 B.extend(D)
 print(B)
 print()  #empty line
+
+# Remove List Items
+
+#  Remove Specified Item
+# The remove() method removes the specified item.
+
+print(B)
+B.remove("insert")
+print(B)
+print()  #empty line
+
+#  Remove Specified Index
+# The pop() method removes the specified index.
+
+print(B)
+B.pop(2)
+print(B)
+print()  #empty line
+
+# If you do not specify the index, the pop() method removes the last item.
+
+# The del keyword also removes the specified index:
+print(B)
+del B[2]
+print(B)
+print()  #empty line
+# The del keyword can also delete the list completely.
+
+#  Clear the List
+# The clear() method empties the list.
+# The list still remains, but it has no content.
+
+print(C)
+C.clear()
+print(C)
+print()  #empty line
