@@ -33,3 +33,12 @@ print(a!=b) # output : True
 print(a<b) # output : True
 print(a>b) # output : False
 print()  #empty line
+
+# Python Logical Operators
+#  Logical operators are used to combine conditional statements: (and, or, not)
+
+print(a<b and a!=b) # output : True  (Returns True if both statements are true)
+print(a<b and a==b) # output : False
+print(a<b or a==b) # output : True
+print(not a==b) # output : True
+print()  #empty line
