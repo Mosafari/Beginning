@@ -178,3 +178,21 @@ L = ['z','s','c','a','b','o','t','A','Z']
 L.reverse()
 print(L)
 print()  #empty line
+
+# Copy Lists
+
+#  Copy a List
+# You cannot copy a list simply by typing list2 = list1, because: list2 will only be a reference to list1,
+# and changes made in list1 will automatically also be made in list2.
+# There are ways to make a copy, one way is to use the built-in List method copy().
+
+N = [1,2,3]
+Z = N.copy()
+print(Z)
+print()  #empty line
+
+# Another way to make a copy is to use the built-in method list().
+
+J = list(N)
+print(J)
+print()  #empty line
