@@ -16,6 +16,7 @@ class A:
 o1=A()
 
 print(o1.x)
+print() #empty line
 
 # The __init__() Function
 # The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
@@ -33,6 +34,23 @@ p1 = Person("John", 36)
 
 print(p1.name)
 print(p1.age) 
+print() #empty line
 
 # Note: The __init__() function is called automatically every time the class is being used to create a new object.
 
+# The __str__() Function
+# The __str__() function controls what should be returned when the class object is represented as a string.
+# If the __str__() function is not set, the string representation of the object is returned:
+
+class Person2:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def __str__(self):
+    return f"{self.name}({self.age})"
+
+p1 = Person2("John", 36)
+
+print(p1) 
+print() #empty line
