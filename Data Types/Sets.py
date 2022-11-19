@@ -39,3 +39,29 @@ set1.update(list2)
 print(set1)
 print() #empty line
 
+# Remove Set Items
+
+#  Remove Item
+# To remove an item in a set, use the remove(), or the discard() method.
+
+set1.remove("python")
+print(set1)
+set1.discard("nothing")
+print(set1)
+print() #empty line
+# Note: If the item to remove does not exist, remove() will raise an error
+# Note: If the item to remove does not exist, discard() will NOT raise an error.
+
+# You can also use the pop() method to remove an item, but this method will remove the last item.
+# Remember that sets are unordered, so you will not know what item that gets removed.
+# The return value of the pop() method is the removed item.
+
+set1.pop()
+print(set1)
+print() #empty line
+# Note: Sets are unordered, so when using the pop() method, you do not know which item that gets removed.
+
+# The clear() method empties the set:
+set0.clear()
+print("set0 : ",set0)
+print() #empty line
