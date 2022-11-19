@@ -146,3 +146,5 @@ addr = {"id": "addr",1:"tehran",2:"shiraz"}
 castumer= {"names": name, "addr": addr}
 print(castumer)
 print() #empty line
+
+# more Dict methods on : https://www.w3schools.com/python/python_dictionaries_methods.asp
