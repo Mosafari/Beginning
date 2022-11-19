@@ -40,3 +40,25 @@ print()  #empty line
 # Specify negative indexes if you want to start the search from the end of the list:
 
 print(B[-5:-1]) # output : [2,3,"a","b"]
+print()  #empty line
+
+#  Change Item Value
+# To change the value of a specific item, refer to the index number:
+
+print(B)
+B[2] = "newval"
+print(B)
+print()  #empty line
+
+#  Change a Range of Item Values
+# To change the value of items within a specific range,
+# define a list with the new values, and refer to the range of index numbers where you want to insert the new values:
+
+print(B)
+new_list = [4,7,8]
+B[2:5] = new_list
+print(B)
+print()  #empty line
+
+#  Note: The length of the list will change when the number of items inserted does not match the number of items replaced.
+
