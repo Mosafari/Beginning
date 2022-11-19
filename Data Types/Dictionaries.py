@@ -90,3 +90,32 @@ print() #empty line
 # The update() method will update the dictionary with the items from a given argument. If the item does not exist, the item will be added.
 # The argument must be a dictionary, or an iterable object with key:value pairs.
 
+# Remove Dictionary Items
+
+# The pop() method removes the item with the specified key name:
+
+D.pop("newkey")
+print(D)
+print() #empty line
+
+# The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):
+
+D.popitem()
+print(D)
+print() #empty line
+
+# The del keyword removes the item with the specified key name:
+
+del D['a']
+print(D)
+print() #empty line
+
+# **The del keyword can also delete the dictionary completely**
+
+# The clear() method empties the dictionary:
+
+D.clear()
+print(D)
+print() #empty line
+
+#                                      *** ( loop in Dict )  in loop section ***
