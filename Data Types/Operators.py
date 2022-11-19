@@ -42,3 +42,11 @@ print(a<b and a==b) # output : False
 print(a<b or a==b) # output : True
 print(not a==b) # output : True
 print()  #empty line
+
+# Python Identity Operators
+#  Identity operators are used to compare the objects,
+#  not if they are equal, but if they are actually the same object, with the same memory location:
+
+print(a is b) # output : False
+print(a is not b ) # output : True
+print()  #empty line
