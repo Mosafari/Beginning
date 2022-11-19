@@ -48,3 +48,16 @@ else:
 finally:
     print("tadaaaa")
     
+# Raise an exception
+# As a Python developer you can choose to throw an exception if a condition occurs.
+# To throw (or raise) an exception, use the raise keyword.
+
+# The raise keyword is used to raise an exception.
+# You can define what kind of error to raise, and the text to print to the user.
+
+x = -1
+try:
+    if x < 0:
+        raise Exception("Sorry, no numbers below zero") 
+except Exception as e:
+    print(e)
