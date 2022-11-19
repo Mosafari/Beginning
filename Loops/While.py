@@ -14,3 +14,13 @@ print() #empty line
 # The while loop requires relevant variables to be ready,
 # in this example we need to define an indexing variable, i, which we set to 1.
 
+# The break Statement
+# With the break statement we can stop the loop even if the while condition is true:
+
+i = 0
+while i < 10:
+    print(i)
+    if i == 5: break
+    i+=1
+    
+print() #empty line
