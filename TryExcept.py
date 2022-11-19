@@ -19,3 +19,16 @@ try:
 except Exception as e:
     print(e)
     
+try:
+    print(notexist)
+except:
+    print("Something went wrong")
+else:
+    print("else doesn't execute")
+    
+try:
+    print(x)
+except:
+    print("Something went wrong")
+else:
+    print("elseeeeeeeee")
