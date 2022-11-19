@@ -196,3 +196,17 @@ print()  #empty line
 J = list(N)
 print(J)
 print()  #empty line
+
+# Join Lists
+
+#  Join Two Lists
+# There are several ways to join, or concatenate, two or more lists in Python.
+# One of the easiest ways are by using the + operator.
+
+N2 = [4,5,6]
+O = N + N2
+print(O)
+print()  #empty line
+
+# Another way to join two lists is by appending all the items from list2 into list1, one by one
+# Or you can use the extend() method, which purpose is to add elements from one list to another list
