@@ -50,3 +50,11 @@ print()  #empty line
 print(a is b) # output : False
 print(a is not b ) # output : True
 print()  #empty line
+
+#  Python Membership Operators
+# Membership operators are used to test if a sequence is presented in an object:
+
+E = "python"
+print("p" in E) # output : True
+print("x" not in E) # output : True
+print()  #empty line
