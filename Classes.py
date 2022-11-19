@@ -54,3 +54,27 @@ p1 = Person2("John", 36)
 
 print(p1) 
 print() #empty line
+
+# Object Methods
+# Objects can also contain methods. Methods in objects are functions that belong to the object.
+
+
+
+# Note: The self parameter is a reference to the current instance of the class,
+# and is used to access variables that belong to the class.
+# The self Parameter
+# The self parameter is a reference to the current instance of the class,
+# and is used to access variables that belongs to the class.
+# It does not have to be named self , you can call it whatever you like,
+# but it has to be the first parameter of any function in the class
+# we can del,modify properties objects
+
+
+class B:
+    y = 2
+    
+o2 = B()
+print(o2.y)
+o2.y = 25
+print(o2.y)
+
