@@ -29,3 +29,19 @@ print()  #empty line
 # When choosing a collection type, it is useful to understand the properties of that type.
 # Choosing the right type for a particular data set could mean retention of meaning, and,
 # it could mean an increase in efficiency or security.
+
+
+tup2= (9,8,7)
+tup1+=tup2
+print(tup1)
+print(tup1[2:5])
+print(tup2[2])
+
+# we can't add, remove, and update values of tuples just as we do on lists, but we can convert tuples to lists
+# and modify it and then turn it into a tuple using tuple() constructor.
+
+print(tup1)
+temp = list(tup1)
+temp.pop()
+tup1= tuple(temp)
+print(tup1)
