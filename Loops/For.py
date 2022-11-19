@@ -60,3 +60,18 @@ print() #empty line
 
 # Note: The else block will NOT be executed if the loop is stopped by a break statement.
 
+# Nested Loops
+# A nested loop is a loop inside a loop.
+# The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+for i in range(1,11):
+    for j in range(1,11):
+        print('{:10}'.format(i*j),end="")
+    print()
+
+print('_'*80) #empty line
+
+for i in range(1,11):
+    for j in range(1,11):
+        if i >= j : print("{:5}".format('O') ,end='') 
+    print()
