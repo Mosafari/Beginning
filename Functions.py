@@ -90,3 +90,12 @@ Greeteng4("ali")
 # and it will be treated as the same data type inside the function.
 # E.g. if you send a List as an argument, it will still be a List when it reaches the function ****
 
+# Return Values
+# To let a function return a value, use the return statement
+
+def power2(num):
+    return num**2
+
+print(power2(3))
+print(power2(2))
+print() #empty line
