@@ -210,3 +210,5 @@ print()  #empty line
 
 # Another way to join two lists is by appending all the items from list2 into list1, one by one
 # Or you can use the extend() method, which purpose is to add elements from one list to another list
+
+# more list method on : https://www.w3schools.com/python/python_lists_methods.asp
