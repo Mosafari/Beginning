@@ -36,6 +36,7 @@ tup1+=tup2
 print(tup1)
 print(tup1[2:5])
 print(tup2[2])
+print()  #empty line
 
 # we can't add, remove, and update values of tuples just as we do on lists, but we can convert tuples to lists
 # and modify it and then turn it into a tuple using tuple() constructor.
@@ -45,3 +46,28 @@ temp = list(tup1)
 temp.pop()
 tup1= tuple(temp)
 print(tup1)
+print()  #empty line
+
+# Unpack Tuples
+
+#  Unpacking a Tuple
+# When we create a tuple, we normally assign values to it. This is called "packing" a tuple:
+
+packing = (1,2,"value")
+# But, in Python, we are also allowed to extract the values back into variables. This is called "unpacking":
+(num1,num2,string) = packing
+print(num1,'\n',num2,'\n',string)
+print()  #empty line
+# Note: The number of variables must match the number of values in the tuple, if not,
+# you must use an asterisk to collect the remaining values as a list.
+
+# Using Asterisk*
+# If the number of variables is less than the number of values,
+# you can add an * to the variable name and the values will be assigned to the variable as a list:
+
+pack2 = (1,2,3,4,5,'str1','str2')
+(*numbers,string1,string2) = pack2
+print(numbers,'\n',string1,'\n',string2)
+print() #empty line
+
+#                                      *** ( loop in Tuple )  in loop section ***
