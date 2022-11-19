@@ -48,3 +48,15 @@ for i in range(0,11,2):
     print(i)
     
 print() #empty line
+
+# Else in For Loop
+# The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+
+for i in range(B):
+    print(i)
+else:
+    print("end")
+print() #empty line
+
+# Note: The else block will NOT be executed if the loop is stopped by a break statement.
+
