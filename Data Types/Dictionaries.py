@@ -58,3 +58,21 @@ print(D.items())
 print() #empty line
 # The returned list is a view of the items of the dictionary,
 # meaning that any changes done to the dictionary will be reflected in the items list.
+
+# Change Dictionary Items
+
+# Change Values
+# You can change the value of a specific item by referring to its key name:
+
+print(D)
+D['a'] = "newvalue"
+print(D)
+print() #empty line
+
+# Update Dictionary
+# The update() method will update the dictionary with the items from the given argument.
+# The argument must be a dictionary, or an iterable object with key:value pairs.
+
+D.update({'newkey': 'value'})
+print(D)
+print() #empty line
