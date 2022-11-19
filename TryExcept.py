@@ -26,9 +26,25 @@ except:
 else:
     print("else doesn't execute")
     
+# Else
+# You can use the else keyword to define a block of code to be executed if no errors were raised
+
 try:
     print(x)
 except:
     print("Something went wrong")
 else:
     print("elseeeeeeeee")
+    
+# Finally
+# The finally block, if specified, will be executed regardless if the try block raises an error or not.
+    
+try:
+    print(y)
+except:
+    print("Something went wrong")
+else:
+    print("elseeeeeeeee")
+finally:
+    print("tadaaaa")
+    
