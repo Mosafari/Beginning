@@ -62,3 +62,39 @@ print()  #empty line
 
 #  Note: The length of the list will change when the number of items inserted does not match the number of items replaced.
 
+# Add List Items
+
+#  Append Items
+# To add an item to the end of the list, use the append() method:
+
+print(B)
+B.append("12")
+print(B)
+print()  #empty line
+
+#  Insert Items
+# To insert a list item at a specified index, use the insert() method.
+# The insert() method inserts an item at the specified index:
+
+print(B)
+B.insert(2, "insert")
+print(B)
+print()  #empty line
+
+#  Extend List
+# To append elements from another list to the current list, use the extend() method.
+
+C=[9,8,"k"]
+print(B)
+B.extend(C)
+print(B)
+print()  #empty line
+
+#  Add Any Iterable
+# The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+
+D=("i",'j',12)
+print(B)
+B.extend(D)
+print(B)
+print()  #empty line
