@@ -71,3 +71,21 @@ print(numbers,'\n',string1,'\n',string2)
 print() #empty line
 
 #                                      *** ( loop in Tuple )  in loop section ***
+
+# Join Tuples
+
+#  Join Two Tuples
+# To join two or more tuples you can use the + operator:
+
+P = pack2 + packing
+print(P)
+print() #empty line
+
+#  Multiply Tuples
+# If you want to multiply the content of a tuple a given number of times, you can use the * operator:
+
+P2 = pack2 * 2
+print(P2)
+print() #empty line
+
+# more tuple methods on : https://www.w3schools.com/python/python_tuples_methods.asp
