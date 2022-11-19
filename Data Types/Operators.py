@@ -58,3 +58,15 @@ E = "python"
 print("p" in E) # output : True
 print("x" not in E) # output : True
 print()  #empty line
+
+#  Python Bitwise Operators
+# Bitwise operators are used to compare (binary) numbers:
+a = 11 # = 1011 (Binary)
+b = 5 # =  0101 (Binary)
+
+
+print( a & b) # AND Sets each bit to 1 if both bits are 1
+print(a | b) # OR  	Sets each bit to 1 if one of two bits is 1
+
+# more details on : https://www.w3schools.com/python/python_operators.asp
+# and : https://www.geeksforgeeks.org/python-bitwise-operators/
