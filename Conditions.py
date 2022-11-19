@@ -73,3 +73,16 @@ print() #empty line
 
 if a==220 or b==330:
     print(True)
+print() #empty line
+
+# Nested If 
+# You can have if statements inside if statements, this is called nested if statements.
+
+grade = 80
+
+if grade > 50:
+    print("pass")
+    if grade >= 80 :
+        print("well done.")
+        
+print() #empty line
